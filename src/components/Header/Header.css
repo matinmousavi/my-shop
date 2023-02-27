@@ -1,0 +1,61 @@
+.header {
+  /* border-bottom: 1px solid var(--green-color); */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.nav-list {
+  width: 65%;
+}
+.nav-list-li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Start Navbar-List Mobile */
+
+.offcanvas-list {
+  margin: 4rem 0;
+}
+.offcanvas-list-item {
+  cursor: pointer;
+}
+.offcanvas-list-item:hover {
+  background-color: var(--dark-color);
+  color: var(--green-color);
+}
+.offcanvas-list-item a:hover {
+  color: var(--green-color);
+}
+/* Buttons */
+.nav-btn {
+  font-weight: bold;
+  background-color: var(--green-color);
+  color: var(--dark-color);
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+.nav-btn:hover {
+  background-color: var(--dark-color);
+  color: var(--green-color);
+  border: none;
+}
+.login-btn {
+  color: var(--green-color);
+  background-color: var(--dark-color);
+  width: 65%;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+.register-btn {
+  color: var(--dark-color);
+  background-color: var(--green-color);
+  width: 65%;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+.nav-accordion-item {
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding-left: 30rem;
+}
+/* Buttons */
