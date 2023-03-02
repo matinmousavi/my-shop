@@ -6,10 +6,16 @@
   width: 65%;
 }
 .nav-list-li {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+.nav-list-li a:hover {
+  color: var(--dark-color);
+  border-bottom: 4px solid var(--green-color);
+}
+
 /* Start Navbar-List Mobile */
 
 .offcanvas-list {
@@ -43,15 +49,11 @@
   color: var(--green-color);
   background-color: var(--dark-color);
   width: 65%;
-  font-size: 1.3rem;
-  border-radius: 10px;
 }
 .register-btn {
   color: var(--dark-color);
   background-color: var(--green-color);
   width: 65%;
-  font-size: 1.3rem;
-  border-radius: 10px;
 }
 .nav-accordion-item {
   font-weight: 900;

@@ -57,10 +57,9 @@ const Header: React.FC = () => {
               </li>
             </ul>
           </div>
-          {/* <Link to="/login" className="nav-btn px-4 d-none d-lg-block"></Link> */}
           <Button
             title="ورود | ثبت نام"
-            to="/login"
+            to="/auth/login"
             className="nav-btn px-4 d-none d-lg-block"
           />  
 
